@@ -123,6 +123,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal
 }
+
 .bonus-background{
     margin-top: 10px;
      background: yellow;
@@ -164,4 +165,35 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+
+.int-title{
+ color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 50px;
+}
+.int-text{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.int-back{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 240px 0px 240px;
+    list-style: none;
+}
+.int-li{
+    margin:24px;
 }
