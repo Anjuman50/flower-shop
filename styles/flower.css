@@ -1,11 +1,106 @@
 .title{
- color: #272727;
+color: #272727;
 font-family: Lato;
 font-size: 80px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
+}
+.title-des{
+ color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
 .banner{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.10)
+
+}
+.btn{
+    border-radius: 8px;
+    color: white;
+    border: none;
+    background: #E55473;
+    padding: 20px 43px 20px 43px;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+    padding:50px 240px 0px 97px;
+}
+.banner-text{
+    padding: 197px 0px 0px 240px;
+}
+
+.featured-title{
+text-align: center;
+color: #272727;
+background-color: white;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.featured-text{
+color: rgba(39, 39, 39, 0.60);
+background-color: white;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.flower-design{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 240px 0px 240px;
+    list-style: none;
+    
+
+}
+
+.flower-text{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 367px 0px 367px;
+    list-style: none;
+    text-align: center;
+    color: #272727;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+text-decoration-line: underline;
+text-decoration-line: bold;
+    
+}
+.pink{
+background: rgba(167, 33, 98, 0.15);
+width: 310px;
+height: 428px;
+padding: 110px 78px 0px 78px;}
+.sky{
+    background: rgba(5, 151, 160, 0.15);
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 78px;
+}
+.gray{
+    background: rgba(71, 125, 17, 0.15);
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 78px;}
+.flower{
+    border-radius: 300px 300px 0px 0px;
 }
