@@ -1,3 +1,7 @@
+*{
+    margin:0px;
+}
+
 .title{
 color: #272727;
 font-family: Lato;
@@ -5,6 +9,7 @@ font-size: 80px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 20px;
 
 }
 .title-des{
@@ -19,8 +24,10 @@ line-height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1920px;
+    height: 850px;
     background: rgba(229, 84, 115, 0.10)
-
+    
 }
 .btn{
     border-radius: 8px;
@@ -28,6 +35,7 @@ line-height: 30px;
     border: none;
     background: #E55473;
     padding: 20px 43px 20px 43px;
+    margin-top: 30px;
 }
 .banner-img{
     width: 635px;
@@ -35,7 +43,7 @@ line-height: 30px;
     padding:50px 240px 0px 97px;
 }
 .banner-text{
-    padding: 197px 0px 0px 240px;
+    padding: 200px 30px 220px 240px;
 }
 
 .featured-title{
@@ -48,6 +56,9 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+width: 1920px;
+margin-top: 200px;
+
 }
 
 .featured-text{
@@ -59,25 +70,42 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+width: 1920px;
+margin-top: 20px;
+
 }
 
 .flower-design{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    padding: 10px 240px 0px 240px;
+    height: 538px;
+    flex-shrink: 0;
     list-style: none;
+    width: 464px;
+    padding: 50px 240px 12px 240px;
     
-
 }
-
+.new-flower{
+    display: flex;
+    justify-content: space-between;
+    height: 538px;
+    flex-shrink: 0;
+    list-style: none;
+    width: 464px;
+    padding: 50px 240px 12px 240px;
+    background-color: yellow;
+}
 .flower-text{
     display: flex;
     justify-content: space-between;
-    padding:0px 367px 0px 367px;
+    padding: 80px 400px 12px 400px;
     list-style: none;
     text-align: center;
     color: #272727;
+    font-weight: 700;
+    width: 1220px;
+    line-height: 35px;
 font-family: Lato;
 font-size: 24px;
 font-style: normal;
@@ -89,64 +117,81 @@ text-decoration-line: bold;
 background: rgba(167, 33, 98, 0.15);
 width: 310px;
 height: 428px;
-padding: 110px 78px 0px 78px;}
+padding: 110px 78px 57px 76px;
+margin: 20px;}
 .sky{
     background: rgba(5, 151, 160, 0.15);
     width: 310px;
-    height: 428px;
-    padding: 110px 78px 0px 78px;
+height: 428px;
+    padding: 110px 78px 57px 76px;
+    margin: 20px;
 }
 .gray{
     background: rgba(71, 125, 17, 0.15);
     width: 310px;
-    height: 428px;
-    padding: 110px 78px 0px 78px;}
+height: 428px;
+    padding: 110px 78px 57px 76px;
+    margin: 20px;
+}
+
 .flower{
     border-radius: 300px 300px 0px 0px;
 }
 .flower-bonus{
-   border-radius: 300px 300px 300px 300px;;
-    }
+  border-radius: 300px 300px 300px 300px;
+}
  .tulip{
-background: rgb(230, 230, 177);
-padding: 110px 78px 0px 78px;
-    }
-.bonus-title{
+    width: 310px;
+    height: 428px;
+    padding: 120px 78px 57px 76px;
+    margin: 20px;
+background: rgb(207, 207, 110);
+}
+.bonus-title
+{
+width: 1920px;
 text-align: center;
 padding-top: 15px;
 color: #272727;
-background-color: yellow;
-text-align: center;
 font-family: Lato;
 font-size: 40px;
-font-style: normal;
+text-decoration: underline;
 font-weight: 800;
-line-height: normal
+line-height: normal;
+margin-top: 200px;
 }
+
+
 .bonus-flower-text{
     display: flex;
-    justify-content: space-between;
-    padding:0px 367px 0px 367px;
+    justify-content: space-between; 
+    color: #601a99;
+    font-family: Lato;
+   text-decoration-line: bold;
+   padding: 80px 300px 0px 400px;
     list-style: none;
     text-align: center;
-    color: #601a99;
+    font-weight: 700;
+    width: 1220px;
+    line-height: 35px;
 font-family: Lato;
 font-size: 24px;
-font-style: normal;
-text-decoration-line: bold;
 }
 .bonus-background{
     margin-top: 10px;
-     background: yellow;
+    background: yellow;
+    width: 1920px;
+    
     }
  .hot-back{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-
-
+    background: rgba(229, 84, 115, 0.05) 5%;
+    width: 1922px;
+    height: 620px;
+    margin-top: 100px;
  }
  .off{
     color: #E55473;
@@ -154,19 +199,20 @@ background: rgba(229, 84, 115, 0.05);
 
  .hot-text{
     text-align: center;
-    padding: 230px 0px 20px 423px;
+    padding: 80px 0px 100px 423px;
        
  }
  .hot-text-para{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
+    
  }
 .hot-img{
-    padding: 100px 429px 100px 186px;
+    padding: 100px 329px 100px 256px;
 }
 
 .hot-text-title{
@@ -176,6 +222,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 30px;
 }
 
 .int-title{
@@ -186,7 +233,10 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-margin-top: 50px;
+margin-top: 100px;
+width: 1920px;
+padding-right: 20px;
+
 }
 .int-text{
     color: rgba(39, 39, 39, 0.60);
@@ -196,17 +246,23 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+width: 1920px;
+padding-right: 20px;
+margin-top: 30px;
 
 }
 .int-back{
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 10px 240px 0px 240px;
+    padding: 60px 0px 0px 20px;
     list-style: none;
+    width: 1920px;
 }
 .int-li{
-    margin:24px;
+    margin-right: 20px;
+    width: 342px;
+    height: 396px;
 }
 .box{
     display: flex;
@@ -234,7 +290,6 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 padding-top: 120px;
-padding-bottom: 0px;
 
 }
 .font{
@@ -273,7 +328,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-padding-top: 20px;
+padding: 150px 130px 30px 0px;
 }
 .foot-text2 {
     color: rgba(255, 255, 255, 0.90);
@@ -283,6 +338,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+padding: 0px 130px 30px 540px;
+width: 625px;
 }
 
 .foot-text3{
@@ -293,9 +350,13 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding: 0px 130px 30px 540px;
+width: 625px;
 }
 .foot-text{
     background: #111010;
     padding: 10px;
     margin-top: 40px;
+    width: 1922px;
+    height: 449px;
 }
