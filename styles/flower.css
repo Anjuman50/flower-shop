@@ -1,0 +1,11 @@
+.title{
+ color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner{
+    display: flex;
+}
