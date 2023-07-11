@@ -123,7 +123,18 @@ font-style: normal;
 font-weight: 800;
 line-height: normal
 }
-
+.bonus-flower-text{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 367px 0px 367px;
+    list-style: none;
+    text-align: center;
+    color: #601a99;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+text-decoration-line: bold;
+}
 .bonus-background{
     margin-top: 10px;
      background: yellow;
@@ -196,4 +207,72 @@ line-height: 30px;
 }
 .int-li{
     margin:24px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-sec-text{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.last-sec-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.form{
+padding-right: 10px;
+}
+.last-sec
+{
+    background-image: url('flower asset/back.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.foot-text1{
+    color: white;
+    font-family: Lato;
+    text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.foot-text2 {
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.foot-text3{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.foot-text{
+    background: #111010;
+    padding: 10px;
+    margin-top: 40px;
 }
