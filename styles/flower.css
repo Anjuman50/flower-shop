@@ -104,3 +104,64 @@ padding: 110px 78px 0px 78px;}
 .flower{
     border-radius: 300px 300px 0px 0px;
 }
+.flower-bonus{
+   border-radius: 300px 300px 300px 300px;;
+    }
+ .tulip{
+background: rgb(230, 230, 177);
+padding: 110px 78px 0px 78px;
+    }
+.bonus-title{
+text-align: center;
+padding-top: 15px;
+color: #272727;
+background-color: yellow;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal
+}
+.bonus-background{
+    margin-top: 10px;
+     background: yellow;
+    }
+ .hot-back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+
+
+ }
+ .off{
+    color: #E55473;
+ }
+
+ .hot-text{
+    text-align: center;
+    padding: 230px 0px 20px 423px;
+       
+ }
+ .hot-text-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+ }
+.hot-img{
+    padding: 100px 429px 100px 186px;
+}
+
+.hot-text-title{
+color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
